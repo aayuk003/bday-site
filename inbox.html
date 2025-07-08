@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartiest Birthday Wishes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+            background: url('https://wallpaperaccess.com/full/2397715.jpg'); /* Naruto background */
+            background-size: cover;
+            color: #E0E0E0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(15, 15, 19, 0.9);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+            z-index: 2;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #FFD700; /* Gold text for titles */
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background-color: #FF4500; /* Anime-themed red-orange */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #FF6347;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Today is a moment of ocation your birthday! Heartiest birthday wishes to you, Kumkum! I hope beautiful things happen to you, and when they do, I hope you believe that you are worthy of them </div>
+        <p class="message">Let the life adventures inspire your journey. Believe in your dreams—you’re worthy of greatness.</p>
+        <button class="button" onclick="openNewPage()">Click here</button>
+    </div>
+
+    <script>
+        function openNewPage() {
+            window.open('anime_lesson.html', '_blank');
+        }
+    </script>
+</body>
+</html>
